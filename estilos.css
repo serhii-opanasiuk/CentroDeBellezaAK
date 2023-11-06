@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Estilos de la cabecera */
+.cabecera {
+    background-color: #FFD700;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Estilos de las secciones */
+.seccion-inicio, .seccion-servicios, .seccion-galeria, .seccion-contacto {
+    padding: 50px 20px;
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Estilos del pie de página */
+.pie-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
