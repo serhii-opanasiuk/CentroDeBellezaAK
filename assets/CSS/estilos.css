@@ -17,6 +17,7 @@
     src: url("../webfonts/Young_Serif/YoungSerif-Regular.ttf");
 }
 body {
+    width: 100%;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,7 +31,7 @@ a {
 h1, h2, h3 {
     font-family: "Adigiana Toybox";
 }
-p {
+header > p {
     font-family: "Young Serif";
     text-align: justify;
 }
@@ -43,6 +44,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 }
 .logo {
@@ -82,6 +84,7 @@ section {
     background-image: url("../images/FondoPrincipal.png");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .btn-cta {
     display: inline-block;
@@ -93,14 +96,22 @@ section {
     text-align: center;
     text-decoration: none;
 }
-
 /* Estilos del pie de página */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-footer > p {
+    width: 100%;
+    font-family: "Adigiana Toybox";
+    font-size: larger;
     text-align: center;
+    background-color: #333;
+    color:#fff
+}
+footer > p.geolocation a {
+    display: inline-flex;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.icon {
+    max-height: 25px;
 }
 
