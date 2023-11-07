@@ -1,19 +1,25 @@
 /* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("../images/FondoPrincipal.png");
-    background-size: cover;
+    box-sizing: border-box;
+    font-family: Roboto;
 }
-
-h1, h2 {
-    color: #333;
-}
-
 a {
     text-decoration: none;
     color: #007BFF;
+}
+h1, h2, h3 {
+    font-family: "Adigiana Toybox";
+}
+p {
+    font-family: "Young Serif";
+    text-align: justify;
 }
 /* Fuentes */
 @font-face {
@@ -30,15 +36,13 @@ a {
 }
 /* Estilos de la cabecera */
 .cabecera {
+    font-family: "Adigiana Toybox";
     background-image: url("../images/Cabezera_background5.jpg");
-    background-repeat: repeat;
     background-size: cover;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
-    font-family: "Adigiana Toybox";
+
 }
 .logo {
     display: flex;
@@ -73,10 +77,11 @@ nav ul li a {
 }
 
 /* Estilos de las secciones */
-.seccion-inicio, .seccion-servicios, .seccion-galeria, .seccion-contacto {
-    padding: 50px 20px;
+section {
+    background-image: url("../images/FondoPrincipal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 .btn-cta {
     display: inline-block;
     padding: 10px 20px;
