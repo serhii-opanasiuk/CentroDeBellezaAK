@@ -3,6 +3,19 @@
     margin: 0;
     padding: 0;
 }
+/* Fuentes */
+@font-face {
+    font-family: "Adigiana Toybox";
+    src: url("../webfonts/Adigiana-Toybox-Regular/AdigianaUI.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../webfonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "Young Serif";
+    src: url("../webfonts/Young_Serif/YoungSerif-Regular.ttf");
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,19 +33,6 @@ h1, h2, h3 {
 p {
     font-family: "Young Serif";
     text-align: justify;
-}
-/* Fuentes */
-@font-face {
-    font-family: "Adigiana Toybox";
-    src: url("../webfonts/Adigiana-Toybox-Regular/AdigianaUI.ttf");
-}
-@font-face {
-    font-family: Roboto;
-    src: url("../webfonts/Roboto/Roboto-Black.ttf");
-}
-@font-face {
-    font-family: "Young Serif";
-    src: url("../webfonts/Young_Serif/YoungSerif-Regular.ttf");
 }
 /* Estilos de la cabecera */
 .cabecera {
