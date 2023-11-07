@@ -13,18 +13,47 @@ a {
     text-decoration: none;
     color: #007BFF;
 }
-
+/* Fuentes */
+@font-face {
+    font-family: "Adigiana Toybox";
+    src: url("../webfonts/Adigiana-Toybox-Regular/AdigianaUI.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../webfonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "Young Serif";
+    src: url("../webfonts/Young_Serif/YoungSerif-Regular.ttf");
+}
 /* Estilos de la cabecera */
 .cabecera {
-    background-color: #FFD700;
+    background-image: url("../images/Cabezera_background5.jpg");
+    background-repeat: repeat;
+    background-size: cover;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 100px;
+    font-family: "Adigiana Toybox";
 }
-
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+.logo img {
+    max-height: 70pt;
+    border-radius: 50%;
+}
 .logo h1 {
-    margin: 0;
+    color: yellow;
+    text-shadow: 3px 3px blue;
+    font-size: 35pt;
+    text-align: center;
+    margin: auto;
+    vertical-align: top;
+    justify-content: center;
 }
 
 nav ul {
@@ -35,6 +64,10 @@ nav ul {
 
 nav ul li {
     margin-right: 20px;
+}
+nav ul li a {
+    font-size: 25px;
+    text-shadow: 3px 3px yellow;
 }
 
 /* Estilos de las secciones */
